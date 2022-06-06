@@ -29,7 +29,7 @@ const authControllers = {
         admin: user.admin,
       },
       process.env.JWT_ACCESS_KEY,
-      { expiresIn: "40s" }
+      { expiresIn: "1h" }
     );
   },
   generateRefreshToken: (user) => {

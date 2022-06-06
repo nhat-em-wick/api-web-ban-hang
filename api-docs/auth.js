@@ -59,7 +59,7 @@
 
 /**
  * @swagger
- * /auth/refresh/{token}:
+ * /auth/refresh:
  *  get:
  *    security:
  *      - bearerAuth: []
@@ -67,7 +67,7 @@
  *    summary: Refresh token
  *    parameters:
  *      - name: token
- *        in: path
+ *        in: query
  *        description: refresh token
  *        type: string
  *    responses:

@@ -10,7 +10,7 @@ router.post('/user',tokenMiddleware.verifyToken, orderControllers.postOrderUser)
 
 router.get('/customer/:orderId', tokenMiddleware.verifyToken, tokenMiddleware.verifyTokenAndAdmin, orderControllers.getOrder)
 router.put('/customer/:orderId', tokenMiddleware.verifyToken, tokenMiddleware.verifyTokenAndAdmin, orderControllers.putOrder)
-router.get('/customer/', tokenMiddleware.verifyToken, tokenMiddleware.verifyTokenAndAdmin, orderControllers.getAllOrder)
+router.get('/customer', tokenMiddleware.verifyToken, tokenMiddleware.verifyTokenAndAdmin, orderControllers.getAllOrder)
 
 
 

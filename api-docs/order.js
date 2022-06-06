@@ -143,7 +143,7 @@
 
 /**
  * @swagger
- * /orders:
+ * /orders/customer:
  *  get:
  *    security:
  *      - bearerAuth: []
@@ -169,7 +169,7 @@
 
 /**
  * @swagger
- * /orders/{orderId}:
+ * /orders/customer/{orderId}:
  *  put:
  *    security:
  *      - bearerAuth: []
@@ -193,7 +193,7 @@
 
 /**
  * @swagger
- * /orders/{orderId}:
+ * /orders/customer/{orderId}:
  *  get:
  *    security:
  *      - bearerAuth: []
