@@ -24,7 +24,6 @@ const adminControllers = {
         (total, item) => total + item.total_price,
         0
       );
-
       const newOrders = pagination(1, 5, totalOrder);
       const newCustomers = pagination(1, 5, totalCustomer);
 
